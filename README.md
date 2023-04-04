@@ -2,4 +2,4 @@
 For Elzero Web School learn git course
 
 
-## projeact nods
+## projeact notes
