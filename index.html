@@ -1,0 +1,81 @@
+<!doctype html> 
+<html lang="en">
+   <head>
+   </head>
+    <body>
+    <form action="" method="POST"> 
+      <div>
+        <label>user name</label>
+        <input type="text" required placeholder="user name" name="user" autofocus>
+      </div>
+      <br>
+       <div>
+        <label>password</label>
+        <input type="password" required placeholder="password" name="password" minlength="4" maxlength="8">
+      </div>
+      <br>
+      <div>
+        <label for="mail">email</label>
+        <input id="mail"type="email" required placeholder="email" value="mh@ls123" name="mail">
+      </div>
+      <br>
+      <div> 
+      <Label for="num">number</Label>
+      <input id="num" type="number" min="0" max="100" step="5" name="num">
+      </div>
+      <br>
+      <div>
+        <input id="win" type="radio" name="os" value="windows" checked>
+        <label for="win">windows</label>
+      </div>
+      <br>
+      <div>
+        <input id="lin"type="radio" name="os" value="linux">
+        <label for="lin">linux</label>
+      </div>
+      <br>
+      <div>
+        <input id="mac" type="radio" name="os" value="mac">
+        <label for="mac">mac</label>
+      </div>
+      <br>
+      <input type="submit" value="save">
+      <input type="reset" value="reset">
+       <br>
+       <br>
+      <label for="book">coohs book</label>
+      <select name="book" id="book">
+        <option value="book1">book1</option>
+        <option value="book2">book2</option>
+        <option value="book3">book3</option>
+        <option value="book4">book4</option>
+      </select>
+      <br>
+      <br>
+      <div>
+        <label for="fail">choose</label>
+        <input id="fail" type="file" name="fail">
+      </div>
+    
+      <br>
+      <div>
+        <label for="date">date</label>
+        <input id="date" type="date" name="date">
+      </div>
+      <br>
+      <label for="pro">progs</label>
+      <input id="pro" list="prog" name="progs">
+      <datalist id="prog">
+        <option value="js"> 
+        <option value="python"> 
+        <option value="php"> 
+        <option value="css"> 
+        <option value="c#"> 
+        <option value="c++"> 
+        <option value="scala"> 
+        <option value="jdscribt"> 
+      </datalist>
+    </form>
+    </body>
+ 
+</html>
