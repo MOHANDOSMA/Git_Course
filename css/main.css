@@ -37,7 +37,7 @@ body {
 .load {
     display: flex;
     justify-content: center;
-    margin: 50px auto;
+    margin: 49px auto;
 }
 .load div {
     width: 40px;
